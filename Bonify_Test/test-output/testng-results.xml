@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58499" started-at="2018-08-05T15:22:59Z" finished-at="2018-08-05T15:23:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58499" started-at="2018-08-05T15:22:59Z" finished-at="2018-08-05T15:23:58Z">
+      <class name="Test_Scripts.Test3_Finances_Credit">
+        <test-method status="PASS" signature="steup()[pri:0, instance:Test_Scripts.Test3_Finances_Credit@7cd62f43]" name="steup" is-config="true" duration-ms="21658" started-at="2018-08-05T15:22:59Z" finished-at="2018-08-05T15:23:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- steup -->
+        <test-method status="PASS" signature="Verify_LoansPage_Navigation()[pri:1, instance:Test_Scripts.Test3_Finances_Credit@7cd62f43]" name="Verify_LoansPage_Navigation" duration-ms="2418" started-at="2018-08-05T15:23:21Z" finished-at="2018-08-05T15:23:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_LoansPage_Navigation -->
+        <test-method status="PASS" signature="Verify_Cardselection_andresult()[pri:2, instance:Test_Scripts.Test3_Finances_Credit@7cd62f43]" name="Verify_Cardselection_andresult" duration-ms="34364" started-at="2018-08-05T15:23:24Z" finished-at="2018-08-05T15:23:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify_Cardselection_andresult -->
+      </class> <!-- Test_Scripts.Test3_Finances_Credit -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

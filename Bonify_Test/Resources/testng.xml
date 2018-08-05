@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Bonify Application Test Automation suite" verbose="1" >
+  <test name="BonifyApplication Test Cases" >
+    <classes>
+      <class name="Test_Scripts.Test2_LoginPage_Bonify"/>
+      <class name="Test_Scripts.Test3_Finances_Credit"/>
+    </classes>
+ </test>
+</suite>
