@@ -5,7 +5,6 @@ import java.util.Set;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
 import Base.Test_Base;
 
 public class LoginPage_Bonify extends Test_Base {
@@ -97,11 +96,13 @@ public class LoginPage_Bonify extends Test_Base {
      }
  	     return str;
      }
+     
+     
 	
      public String Login(){
    	
-    	 Username.sendKeys("er.anandsingh7@gmail.com");
-    	 Password.sendKeys("Prometric@1");
+    	 Username.sendKeys(prop.getProperty("username"));
+    	 Password.sendKeys(prop.getProperty("password"));
     	 Send.click();
     	 
     	return  Homepagetxt.getText();

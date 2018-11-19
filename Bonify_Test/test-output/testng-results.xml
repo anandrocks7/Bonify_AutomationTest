@@ -2,23 +2,51 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="58499" started-at="2018-08-05T15:22:59Z" finished-at="2018-08-05T15:23:58Z">
+  <suite name="Default suite" duration-ms="53062" started-at="2018-11-19T18:57:53Z" finished-at="2018-11-19T18:58:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="58499" started-at="2018-08-05T15:22:59Z" finished-at="2018-08-05T15:23:58Z">
+    <test name="Default test" duration-ms="53062" started-at="2018-11-19T18:57:53Z" finished-at="2018-11-19T18:58:47Z">
       <class name="Test_Scripts.Test3_Finances_Credit">
-        <test-method status="PASS" signature="steup()[pri:0, instance:Test_Scripts.Test3_Finances_Credit@7cd62f43]" name="steup" is-config="true" duration-ms="21658" started-at="2018-08-05T15:22:59Z" finished-at="2018-08-05T15:23:21Z">
+        <test-method status="PASS" signature="steup()[pri:0, instance:Test_Scripts.Test3_Finances_Credit@754ba872]" name="steup" is-config="true" duration-ms="11617" started-at="2018-11-19T18:57:53Z" finished-at="2018-11-19T18:58:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- steup -->
-        <test-method status="PASS" signature="Verify_LoansPage_Navigation()[pri:1, instance:Test_Scripts.Test3_Finances_Credit@7cd62f43]" name="Verify_LoansPage_Navigation" duration-ms="2418" started-at="2018-08-05T15:23:21Z" finished-at="2018-08-05T15:23:24Z">
+        <test-method status="PASS" signature="Verify_LoansPage_Navigation(java.lang.String, java.lang.String)[pri:1, instance:Test_Scripts.Test3_Finances_Credit@754ba872]" name="Verify_LoansPage_Navigation" duration-ms="5106" started-at="2018-11-19T18:58:06Z" data-provider="getvaluesLoanpage" finished-at="2018-11-19T18:58:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kreditkarten]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_LoansPage_Navigation -->
-        <test-method status="PASS" signature="Verify_Cardselection_andresult()[pri:2, instance:Test_Scripts.Test3_Finances_Credit@7cd62f43]" name="Verify_Cardselection_andresult" duration-ms="34364" started-at="2018-08-05T15:23:24Z" finished-at="2018-08-05T15:23:58Z">
+        <test-method status="PASS" signature="Verify_Cardselection_andresult(java.lang.String, java.lang.String)[pri:2, instance:Test_Scripts.Test3_Finances_Credit@754ba872]" name="Verify_Cardselection_andresult" duration-ms="34010" started-at="2018-11-19T18:58:12Z" data-provider="getvaluesLoanpage" finished-at="2018-11-19T18:58:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kreditkarten]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[American Express]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Verify_Cardselection_andresult -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:Test_Scripts.Test3_Finances_Credit@754ba872]" name="TearDown" is-config="true" duration-ms="911" started-at="2018-11-19T18:58:46Z" finished-at="2018-11-19T18:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
       </class> <!-- Test_Scripts.Test3_Finances_Credit -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

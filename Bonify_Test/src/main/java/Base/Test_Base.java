@@ -16,7 +16,7 @@ public class Test_Base{
 
 	public static WebDriver driver;
 	public static Properties prop;
-	static String Projectpath =System.getProperty("user.dir");
+	public static String Projectpath =System.getProperty("user.dir");
 	
 	public Test_Base()
 	{
@@ -24,7 +24,7 @@ public class Test_Base{
 		prop = new Properties();
 		
 		FileInputStream ip = new FileInputStream(Projectpath+"\\src\\main\\java\\Config\\config.properties");
-		//FileInputStream ip = new FileInputStream("C:\\Selenium_Project\\Oradian_Test\\src\\main\\java\\com\\circle\\qa\\config\\config.properties");
+		//FileInputStream ip = new FileInputStream("C:\\Selenium_Project\\Bonify_Test\\src\\main\\java\\com\\circle\\qa\\config\\config.properties");
 		prop.load(ip);
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block

@@ -15,11 +15,11 @@ public class Finances_Credit extends Test_Base {
 	WebElement  LoansLink;
 	@FindBy(xpath="//label[@for='creditCards']")
 	WebElement Creditcardslabel;
-	@FindBy(xpath="//iframe[@src='/dist/7cd751305ccc5696fb53f75e147ebc94.html?postcode=10117&campaignId=iframe&subPartnerId=333245']")
+	@FindBy(xpath="//section[@class='iframe-container']//iframe")
 	WebElement Frame1;
 	//@FindBy(name="vxcp_frame")
 	//WebElement Frame2;
-	@FindBy(xpath="//select[@name='kartengesellschaft']")
+	@FindBy(xpath="//select[@class='kreditkarterechner_kartengesellschaft']")
 	WebElement  Carddropdown;
 	@FindBy(xpath="//div[@class='col-md-3 col-md-offset-9 col-sm-4 col-sm-offset-8 col-xs-12']/input")
 	WebElement SearchButton;
@@ -45,7 +45,7 @@ public Finances_Credit() {
 		 
 		// driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@src='/dist/7cd751305ccc5696fb53f75e147ebc94.html?postcode=10117&campaignId=iframe&subPartnerId=333245']")));
 		 driver.switchTo().frame(Frame1);
-		 Thread.sleep(1000);
+		 Thread.sleep(2000);
 		 driver.switchTo().frame("vxcp_frame");
 
 		 System.out.println("Driver switched ");

@@ -6,6 +6,7 @@
       <class name="Test_Scripts.Test3_Finances_Credit">
         <methods>
           <include name="steup"/>
+          <include name="TearDown"/>
           <include name="Verify_Cardselection_andresult"/>
         </methods>
       </class> <!-- Test_Scripts.Test3_Finances_Credit -->
